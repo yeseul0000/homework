@@ -2,7 +2,11 @@
 :root{
 }
 /* 기본세팅 */
+body *{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #4E4E4E;
 
+}
 
 main{
     display: flow-root;
@@ -18,28 +22,33 @@ section{
     /* padding: 14px 20px 20px 20px; */
 }
 
-h3{
-    font-family: 'Noto Sans KR', sans-serif;
-    color: #4E4E4E;
-
-}
 
 button{
     border: 0;
     width: 42px;
     height: 42px;
-    background-color: (0, 0, 0, 0.20);
+    background-color: transparent;
     margin: 20px;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
+
 button:hover{
     border: 0;
     width: 112px;
     height: 42px;
     background: #0074E9;
+}
+
+button{
+    background-image: url("img/button.svg");
+}
+
+button:hover::before{
+    content:"시작하기";
+    color: white;
 }
 
 .CardLinkNormal h3{
