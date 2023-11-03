@@ -1,17 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+:root{
+}
+/* 기본세팅 */
+
+
+main{
+    display: flow-root;
+}
 
 section{
+    position: relative;
+    box-sizing: border-box;
+    margin: 8px;
+    width: 50px;
+    height: 500px;
+    border: 1px solid #C4C4C4;
+    /* padding: 14px 20px 20px 20px; */
+}
+
+h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #4E4E4E;
+
+}
+
+button{
+    border: 0;
+    width: 42px;
+    height: 42px;
+    background-color: (0, 0, 0, 0.20);
     margin: 20px;
-    border: 1px solid rgba(165, 165, 165, 0.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+span{
+    position: absolute;
+    
+}
+
+button:hover{
+    border: 0;
+    width: 112px;
+    height: 42px;
+    background: #0074E9;
+}
+
+.CardLinkNormal h3{
+    text-align: center;
 }
 
 .CardLinkNormal{
     float: left;
-    width: 243px;
     height: 310px;
+    width: 243px;
 }
 
 .CardLinkWide{
-    float: left;
     width: 502px;
     height: 310px;
+    font-size: 24px;
+}
+
+.wide_item{
+    margin: 20px 28px;
+    float: right;
+}
+
+.slogan{
+    float: left;
+}
+
+.slogan img{
+    position: absolute;
+    top: 95px;
+    left: 85px;
+}
+
+.slogan h3{
+    position: absolute;
+    top: 150px;
+    left: 28px;
+    padding: 0 30px;
 }
