@@ -32,12 +32,7 @@ button{
     margin: 20px;
     position: absolute;
     bottom: 0;
-    z-index: 1;
-}
-
-span{
-    position: absolute;
-    
+    left: 0;
 }
 
 button:hover{
@@ -66,6 +61,12 @@ button:hover{
 .wide_item{
     margin: 20px 28px;
     float: right;
+}
+
+.normal_item{
+    position: absolute;
+    top: 100px;
+    left: 20px
 }
 
 .slogan{
