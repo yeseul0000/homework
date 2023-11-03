@@ -2,7 +2,7 @@
 
 ## 박스 2개 안에 각각 로고, 문구, 이미지, 버튼 배치
 
-[] html - section 2개 생성
+[x] html - section 2개 생성
 [] html - logo, 문구, 이미지, 버튼을 각 섹션에 생성
 [] css - section에 border 생성
 [] css - (CardLinkNormal) 내부 위치 margin으로 조정
