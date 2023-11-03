@@ -1,1 +1,17 @@
 
+section{
+    margin: 20px;
+    border: 1px solid rgba(165, 165, 165, 0.5);
+}
+
+.CardLinkNormal{
+    float: left;
+    width: 243px;
+    height: 310px;
+}
+
+.CardLinkWide{
+    float: left;
+    width: 502px;
+    height: 310px;
+}
