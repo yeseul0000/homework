@@ -85,3 +85,13 @@ button:hover{
     left: 28px;
     padding: 0 30px;
 }
+
+.normal_slogan{
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+.normal_slogan h3{
+    margin: 2px;
+}
