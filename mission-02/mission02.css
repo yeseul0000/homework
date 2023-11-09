@@ -1,0 +1,35 @@
+/* 숨기기 기능 */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  /* 메인 디자인 */
+body{
+    background-color: #24388D;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in{
+    width: 30%;
+}
+
+.sign-in-heading{
+    text-align: center;
+}
+
+.check-id{
+    display: block;
+}
