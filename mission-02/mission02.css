@@ -11,9 +11,20 @@
     border-width: 0;
   }
 
+  /* 초기화 */
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+  }
+
   /* 메인 디자인 */
 body{
     background-color: #24388D;
+}
+
+form{
+    background-color: yellow;
 }
 
 .container{
@@ -23,13 +34,19 @@ body{
 }
 
 .sign-in{
-    width: 30%;
+    width: auto;
 }
 
+.sign-in,
 .sign-in-heading{
     text-align: center;
 }
 
 .check-id{
     display: block;
+    text-align: left;
+}
+
+.button-li-items{
+    display: inline;
 }
