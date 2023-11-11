@@ -62,7 +62,7 @@ input[type="email"]{
 }
 
 ::placeholder {
-    color: var(--base-color);
+    color: transparent;
     text-indent: 3px;
     font-size: 1.3em;
     opacity: 1; /* Firefox */
@@ -114,6 +114,14 @@ padding: 0;
 .userEmail-input,
 .userPwd-input{
     width: 99%;
+}
+
+label[class*='user']{
+    color: var(--base-color);
+    position: relative;
+    top: 75px;
+    float: left;
+    text-indent: 5px;
 }
 
 .check-id{
