@@ -1,3 +1,6 @@
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+.spoka * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
 :root{
     --base-color: #FEFEFE;
     --primary-color: #24388D;
@@ -23,14 +26,27 @@
     list-style-type: none; 
   }
 
-  /* 메인 디자인 */
-body{
+/* 태그 agent style 변경  */
+  body{
     background-color: var(#24388D);
-    background: url(images/background-web.png) no-repeat;
-    background-size: cover;
+      background: url(images/background-web.png) no-repeat;
+      background-size: cover;
+      color: var(--base-color);
+    } 
+    
+h2{
     color: var(--base-color);
-} 
+text-align: center;
+/* font-family: SpoqaHanSas; */
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
 
+/* 메인 디자인 */
 fieldset{
     border: none;
 }
@@ -69,8 +85,29 @@ input[type="email"]{
     padding-top: 25%;
 }
 
+/* 로그인 문구 */
+.greet{
+    color: var(--unnamed, #FEFEFE);
+text-align: center;
+font-family: SpoqaHanSans;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0;
+}
+
+.eng-greet{
+    font-size: 18px;
+    letter-spacing: -0.36px;
+}
+
+.ko-greet{
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
+
+/* 로그인 폼 */
 .sign-in-form{
-    /* background-color: yellow; */
     padding-top: 5%;
 }
 
@@ -118,12 +155,13 @@ input[type="email"]{
 }
 
 .signupA{
-    background-color: green;
-    line-height: 48px;
+    background: green;
+    /* padding: 50px; */
+    /* line-height: 48px; */
 }
 
 .signin-content *::after{
-    content: '>';
+    content: '';
     color: var(--primary-color);
 }
 
