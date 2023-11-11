@@ -1,3 +1,8 @@
+:root{
+    --base-color: #FEFEFE;
+    --primary-color: #24388D;
+}
+
 /* 숨기기 기능 */
 .sr-only {
     position: absolute;
@@ -20,11 +25,32 @@
 
   /* 메인 디자인 */
 body{
-    background-color: #24388D;
-    background-image: url(images/background-mobile.png);
-
-    color: white;
+    background-color: var(#24388D);
+    background: url(images/background-web.png) no-repeat;
+    background-size: cover;
+    color: var(--base-color);
 } 
+
+fieldset{
+    border: none;
+}
+
+input[type="password"],
+input[type="email"]{
+    height: 1.5em;
+    line-height: 1.5em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--base-color);
+    margin-top: 53px;
+}
+
+::placeholder {
+    color: var(--base-color);
+    text-indent: 3px;
+    font-size: 1.3em;
+    opacity: 1; /* Firefox */
+  }
 
 /* 로그인 */
 
@@ -44,7 +70,8 @@ body{
 }
 
 .sign-in-form{
-    background-color: yellow;
+    /* background-color: yellow; */
+    padding-top: 5%;
 }
 
 .userEmail-input,
@@ -66,13 +93,38 @@ body{
     text-align: center;
 }
 
+.signin-content *{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
 .check-id{
+    margin-top: 10px;
     display: block;
     text-align: left;
 }
 
-.button-li-items{
-    display: inline;
+.signin-content{
+    margin-top: 50px;
+}
+
+.signinB{
+    width: 48%;
+    height: 48px;
+    background-color: var(--base-color);
+    border: 1px solid var(--base-color);
+    border-radius: 8px;
+}
+
+.signupA{
+    background-color: green;
+    line-height: 48px;
+}
+
+.signin-content *::after{
+    content: '>';
+    color: var(--primary-color);
 }
 
 /* media */
@@ -80,7 +132,7 @@ body{
     body{
         background-image: url(images/background-mobile.png);
     }
-    .login-content *{
+    .signin-content *{
         width: 100%;
     }
 }
