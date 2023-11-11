@@ -156,13 +156,16 @@ padding: 0;
     border: 1px solid var(--base-color);
     border-radius: 8px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .signupA{
-    background: var(--base-color);
+    color: var(--base-color);
     border: 1px solid var(--base-color);
     border-radius: 8px;
-    
+
+    font-weight: 600;
+
     width: 48%;
     height: 48px;
     line-height: 48px;
