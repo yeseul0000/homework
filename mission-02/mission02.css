@@ -129,7 +129,7 @@ label[class*='user']{
     /* color: var(--base-color); */
     position: relative;
     bottom: 25px;
-    left: -250px;
+    left: -43%;
 
     /* input 보다 뒤로 이동 */
     z-index: -1;
