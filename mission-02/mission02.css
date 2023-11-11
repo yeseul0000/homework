@@ -143,6 +143,9 @@ padding: 0;
 }
 
 .signin-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -152,12 +155,18 @@ padding: 0;
     background-color: var(--base-color);
     border: 1px solid var(--base-color);
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .signupA{
-    background: green;
-    /* padding: 50px; */
-    /* line-height: 48px; */
+    background: var(--base-color);
+    border: 1px solid var(--base-color);
+    border-radius: 8px;
+    
+    width: 48%;
+    height: 48px;
+    line-height: 48px;
+    display: inline-block;
 }
 
 .signin-content *::after{
