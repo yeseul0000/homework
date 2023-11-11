@@ -21,20 +21,44 @@
   /* 메인 디자인 */
 body{
     background-color: #24388D;
-}
+    background-image: url(images/background-mobile.png);
 
-form{
-    background-color: yellow;
-}
+    color: white;
+} 
+
+/* 로그인 */
+
 
 .container{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sign-in{
-    width: auto;
+    height: 100vh;
+    width: 580px;
+    padding: 0;
+    padding-top: 25%;
+}
+
+.sign-in-form{
+    background-color: yellow;
+}
+
+.userEmail-input,
+.userPwd-input{
+    width: 99%;
+}
+
+.check-id{
+    padding-top: 5px;
+}
+
+#checkId{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .sign-in,
@@ -50,3 +74,19 @@ form{
 .button-li-items{
     display: inline;
 }
+
+/* media */
+@media screen and (max-width: 600px){
+    body{
+        background-image: url(images/background-mobile.png);
+    }
+    .login-content *{
+        width: 100%;
+    }
+}
+
+/* @media screen and (min-width: 600px){
+    body{
+        background: url(images/background-web.png);
+    }
+} */
