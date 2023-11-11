@@ -51,6 +51,10 @@ letter-spacing: -0.72px;
 text-transform: uppercase;
 }
 
+input[type="checkbox"]:checked {
+    background-color: white;
+}
+
 /* 메인 디자인 */
 fieldset{
     border: none;
@@ -147,17 +151,23 @@ input[class*='user']:active::placeholder{
     opacity: 70%;
 }
 
+span{
+    display: inline;
+    text-align: left;
+}
+
 .userEmail-input:valid{
-    background-color: red;
+    background: url(images/checkmark.svg) no-repeat 98% 50%;    
 }
 
 .userEmail-input:focus:invalid{
-    background-color: #24388D;
+    background: url(images/warning.svg) no-repeat 98% 50%;
 }
 
 .userPwd-input:focus:invalid{
-    background-color: #24388D;
+    background: url(images/warning.svg) no-repeat 98% 50%;
 }
+
 
 /* 이메일 기억하기 */
 .check-id{
