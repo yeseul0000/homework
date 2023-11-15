@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix</title>
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header class="header">
       <span class="logo"
         ><svg
-          width="80"
-          height="22"
+          width="140"
+          height="38"
           viewBox="0 0 80 22"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -25,11 +26,13 @@
           </g>
         </svg>
       </span>
-      <select name="lang" class="lang-select">
-        <option value="ko">한국어</option>
-        <option value="en">ENGLISH</option>
-      </select>
-      <a href="" class="signin">로그인</a>
+      <div class="lang-signin-group">
+        <select name="lang" class="lang-select">
+          <option value="ko">한국어</option>
+          <option value="en">ENGLISH</option>
+        </select>
+        <a href="" class="signin">로그인</a>
+      </div>
     </header>
     <main class="main">
       <h1 class="title">영화, TV 프로그램을 무제한으로.</h1>
