@@ -34,7 +34,7 @@
 /* 태그 agent style 변경  */
   body{
     background-color: var(#24388D);
-      background: url(images/background-web.png) no-repeat;
+      background: url(images/background-web.png) no-repeat center;
       background-size: cover;
       color: var(--base-color);
     } 
@@ -279,9 +279,9 @@ span{
 
 /* media */
 @media screen and (max-width: 600px){
-    body{
+    /* body{
         background-image: url(images/background-mobile.png);
-    }
+    } */
     .signin-content *{
         width: 100%;
     }
