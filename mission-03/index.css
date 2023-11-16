@@ -1,6 +1,8 @@
 /* 변수 */
 :root{
---base-color: #757575;
+    --background-color : #010101;
+    --base-color: white;
+--footer-color: #757575;
 }
 
 /* 초기화 */
@@ -56,13 +58,17 @@ body, body *{
 /* 푸터 */
 .footer{
     padding-top: 2.875rem;
-    box-shadow: 0 -1px 2px 0 var(--base-color);
-    /* background-color: red; */
+    box-shadow: 0 -2px 2px 0 var(--footer-color);
+    background-color: var(--background-color);
 }
 
 .container{
     width: 76.1vw;
     margin: 0 auto;
+}
+
+.container *{
+    color: var(--footer-color);
 }
 
 .footer >p {
