@@ -1,8 +1,9 @@
 /* 변수 */
 :root{
-    --background-color : #010101;
+    --primary-color: #e50914;
     --base-color: white;
---footer-color: #757575;
+    --background-color : #010101;
+    --footer-color: #757575;
 }
 
 /* 초기화 */
@@ -28,11 +29,12 @@ body, body *{
 .header{
     background-color: pink;
     height: 6.25rem;
+    padding:1.25rem 12.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1.25rem 2rem;
 }
+
 
 .lang-select{
     background-color: transparent;
@@ -40,6 +42,15 @@ body, body *{
     height: 40px;
     border-color: var(--base-color);
     border-radius: 5px;
+}
+
+.signin{
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--base-color);
+    font-weight: 700;
+    margin-left: 1.5em;
 }
 
 /* 메인 */
