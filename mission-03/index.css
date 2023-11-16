@@ -42,8 +42,10 @@ body, body *{
 
 /* 메인 */
 .main {
+    background-color: wheat;
     width: 100%;
     height: 33.25rem;
+    margin-bottom: 9.1875rem;
 
     display: flex;
     flex-flow: column nowrap;
@@ -53,9 +55,18 @@ body, body *{
 
 /* 푸터 */
 .footer{
-    width: 76.1%;
-    background-color: red;
+    padding-top: 2.875rem;
+    box-shadow: 0 -1px 2px 0 var(--base-color);
+    /* background-color: red; */
+}
+
+.container{
+    width: 76.1vw;
     margin: 0 auto;
+}
+
+.footer >p {
+    margin-top: 0;
 }
 
 .footer ul{
