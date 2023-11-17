@@ -32,7 +32,7 @@ body, body *{
 }
 
 
-/* style */
+/* 공통 style */
 body{
     background: image-set(url(/assets/img/background.png) 1x, url(/assets/img/backgroundx2.png) 2x, url(/assets/img/backgroundx3.png) 3x),
     linear-gradient(to bottom, rgba(0,0,0), rgba(0,0,0,0.9) 20%, rgba(0,0,0)40%);
@@ -98,14 +98,32 @@ h1{
     margin-bottom: 28px;
 }
 
+.promo-text{
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */
+letter-spacing: -0.01px;
+}
+
 .email-input{
-    margin: 0 30px;
+    margin: 0 30px 28px 30px;
+}
+
+.email-input h3{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.008px;
+    padding: 0 10%;
 }
 
 .email-input input{
     width: 31.25rem;
     height: 24px;
     padding: 18px 20px;
+    margin-bottom: 0;
 }
 
 .subscription-form{
@@ -114,15 +132,29 @@ h1{
     margin-bottom: 0;
 }
 
+.subscription-form button{
+    background-color: var(--primary-color);
+    border: 0;
+    margin: 0;
+    width: 170px;
+    height: 40px;
+}
+
+.subscription-form button::after{
+    content: ''url(/assets/svg/button-arrow-stroke.svg) ;
+    padding-left: 10px;
+}
+
 /* 푸터 */
 .footer{
     padding-top: 2.875rem;
+    padding-bottom: 3.125rem;
     box-shadow: 0 -2px 2px 0 var(--footer-color);
     background-color: var(--background-color);
 }
 
 .container{
-    width: 76.1vw;
+    width: 76.1%;
     margin: 0 auto;
 }
 
@@ -130,14 +162,31 @@ h1{
     color: var(--footer-color);
 }
 
-.footer >p {
+.tel{
     margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
 }
 
 .footer ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 2em;   
+}
 
+.netflix-korea{
+    font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+}
+.copy-text{
+    font-weight: 700;
+line-height: 150%; /* 24px */
+letter-spacing: -0.008px;
 }
 
 /* 브레이크 포인트 */
