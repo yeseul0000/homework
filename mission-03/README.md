@@ -33,37 +33,39 @@
 
 일반적인 브레이크 포인트(주1)를 참고하여 모바일 480px, 타블렛 1280px을 브레이크 포인트로 잡았다.
 
-(주1 브레이크 포인트)
-~ 480px: 모바일 세로
-481px ~ 768px: 모바일 가로, 타블렛 세로
-769px ~ 1024px 또는 1280px: 타블렛 가로, 노트북
-1025px 및 1281px ~: 데스크탑
+(주1 브레이크 포인트)<br/>
+~ 480px: 모바일 세로<br/>
+481px ~ 768px: 모바일 가로, 타블렛 세로<br/>
+769px ~ 1024px 또는 1280px: 타블렛 가로, 노트북<br/>
+1025px 및 1281px ~: 데스크탑<br/>
 
 #### 3. 반응형 웹 구현 계획
 
-1. header
+<b>1. header</b>
 
-max-width: 1280px(타블렛)
+   max-width: 1280px(타블렛)
 
-- 좌우 padding 값 감소
+   - 좌우 padding 값 감소
 
-max-width: 480px(모바일)
+   max-width: 480px(모바일)
 
-- 언어 선택과 로그인 버튼 사이 간격 감소
-- logo 사이즈 감소
+   - 언어 선택과 로그인 버튼 사이 간격 감소
+   - logo 사이즈 감소
 
-2. main
+<b>2. main</b>
+   
    max-width: 1280px
 
-- 글자 및 줄간격 조정
+   - 글자 및 줄간격 조정
 
-max-width: 480px(모바일)
+   max-width: 480px(모바일)
 
-- 좌우 padding 값 조정
-- input과 button 스타일 변경 및 줄바꿈 됨
-- 전체 width 조정
+   - 좌우 padding 값 조정
+   - input과 button 스타일 변경 및 줄바꿈 됨
+   - 전체 width 조정
 
-3. footer
+<b>3. footer</b>
+   
    max-width: 1280px
 
    - ul li 를 3줄로 변경
