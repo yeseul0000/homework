@@ -36,15 +36,16 @@
     </header>
     <main class="main">
       <h1 class="title">영화, TV 프로그램을<br />무제한으로.</h1>
-      <p class="promo-text">
-        다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.
-      </p>
-      <form action="" class="email-input">
+      <div class="promo-text-container">
+        <p class="promo-text">다양한 디바이스에서 시청하세요.</p>
+        <p class="promo-text">언제든 해지하실 수 있습니다.</p>
+      </div>
+      <form action="/" class="subscription-form" method="post">
         <h3>
           시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를
           입력하세요.
         </h3>
-        <div class="subscription-form">
+        <div class="email-input">
           <input type="email" placeholder="이메일 주소" />
           <button>30일 무료 이동</button>
         </div>
@@ -53,7 +54,8 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <p class="tel">
+        <p class="tel"></p>
+        <p>
           질문이 있으신가요? 문의 전화:
           <a href="tel:00-308-321-0058">00-308-321-0058</a>
         </p>
