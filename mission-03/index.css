@@ -155,12 +155,12 @@ display: inline;
     background-color: var(--background-color);
 }
 
-.container{
+.footer-container{
     width: 76.1%;
     margin: 0 auto;
 }
 
-.container *{
+.footer-container *{
     color: var(--footer-color);
 }
 
@@ -216,6 +216,7 @@ letter-spacing: -0.008px;
 /* 푸터 */
     .footer-container{
         width: 90%;
+        margin-left: 5%;
     }
 
     .footer ul{
